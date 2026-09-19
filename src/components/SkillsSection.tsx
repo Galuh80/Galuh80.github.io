@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { category: "Programming Language", items: ["Python", "PHP", "C#", "Javascript"] },
-  { category: "Backend Framework", items: ["Django", "FastAPI", "Odoo ERP", "Laravel", "CodeIgniter", "ASP.NET"] },
+  { category: "Programming Language", items: ["Python", "Javascript", "TypeScript", "PHP", "C#"] },
+  { category: "Backend Framework", items: ["NestJS", "NodeJS", "Django", "FastAPI", "Odoo ERP", "Laravel", "CodeIgniter", ".NET 8"] },
   { category: "Frontend Framework", items: ["ReactJS", "Tailwind CSS"] },
+  { category: "AI / LLM", items: ["LLM", "RAG", "CAG"] },
   { category: "Database", items: ["PostgreSQL", "MySQL", "Microsoft SQL Server"] },
-  { category: "DevOps", items: ["Docker", "AWS", "CI/CD", "Git", "Linux"] },
+  { category: "Cloud & DevOps", items: ["AWS (EC2, RDS, S3)", "Docker", "Nginx", "GitHub Actions", "CI/CD", "Git", "Linux"] },
 ];
 
 const SkillsSection = () => {

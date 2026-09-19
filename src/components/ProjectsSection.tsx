@@ -7,8 +7,8 @@ const projects = [
     title: "Fleet Management System",
     slug: "fleet-management-system",
     description:
-      "TransporTech.ai is a multi-tenant Fleet Management SaaS platform designed to manage transportation and logistics operations for companies of all sizes.",
-    tech: ["TypeScript", "NestJS", "ReactJS", "PostgreSQL", "Redis", "OneSignal"],
+      "TransporTech.ai is a multi-tenant Fleet Management SaaS platform covering Dispatch, HR, Finance, Fleet, and Live Tracking, with a cross-platform driver mobile app, automated revenue reconciliation with ride-hailing platforms, and an AI-powered assistant.",
+    tech: ["TypeScript", "NestJS", "ReactJS", "PostgreSQL", "Redis", "OneSignal", "LLM API"],
     github: "#",
     live: "https://transportech.ai/",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "DCP (Data Consolidation Platform)",
     slug: "dcp-data-consolidation-platform",
     description:
-      "The Data Consolidation Platform was developed to overcome key challenges in data management and utilization. The platform aims to consolidate data from multiple sources, standardize formats, fill in missing data, and provide flexible data input methods. This application is also used as a data feed in the DSAS (Dynamic Scheduling Automation System) application developed by PT. SES and Dassault Systeme",
+      "The Data Consolidation Platform was developed to overcome key challenges in data management and utilization. The platform aims to consolidate data from multiple external systems (including Quintiq), standardize formats, fill in missing data, and provide flexible data input methods. This application is also used as a data feed in the DSAS (Dynamic Scheduling Automation System) application developed by PT. SES and Dassault Systeme",
     tech: ["C#", "ASP.NET 6", "Microsoft SQL Server", "Azure"],
     github: "#",
     live: "#",
@@ -61,17 +61,17 @@ const projects = [
     title: "Odoo Digital Inspection Application",
     slug: "odoo-digital-inspection-application",
     description:
-      "Our Odoo ERP application is a versatile and comprehensive solution designed to streamline business operations across various departments. It integrates key functions such as accounting, inventory management, sales, human resources, and customer relationship management into a single, cohesive platform. The application offers customizable modules, user-friendly interfaces, and real-time data analytics, enabling businesses to optimize processes, enhance efficiency, and make informed decisions. With its scalable architecture and extensive support for third-party integrations, our Odoo ERP application is ideal for businesses of all sizes looking to improve their operational effectiveness and drive growth.",
+      "A set of custom Odoo modules for employee management, inspections, document handling, and project administration. It automates manual HR and inspection workflows by translating operational requirements into ERP-based solutions.",
     tech: ["Python", "Odoo 12", "PostgreSQL", "Linux Server"],
-    github: "https://www.jasamaritim.co.id/",
-    live: "#",
+    github: "#",
+    live: "https://www.pelindosolusimaritim.co.id/",
   },
   {
     title: "Odoo Project Controlling Application",
     slug: "odoo-project-controlling-application",
     description:
-      "The Project Controlling app in Odoo 14 is designed to help businesses effectively manage, track, and analyze project-related activities, costs, and performance.",
-    tech: ["Python", "Odoo 14", "PostgreSQL", "AWS"],
+      "The Project Controlling app in Odoo 16 is designed to help businesses effectively manage, track, and analyze project-related activities, costs, and performance.",
+    tech: ["Python", "Odoo 16", "PostgreSQL", "AWS"],
     github: "#",
     live: "#",
   },
@@ -79,7 +79,7 @@ const projects = [
     title: "SIMAK (Sistem Informasi Akademik)",
     slug: "simak-sistem-informasi-akademik",
     description:
-      "Sistem Informasi Manajemen Kampus (SIMAK) is designed to enhance the educational experience by providing a comprehensive, user-friendly platform for managing and delivering academic content. The application supports course creation, enrollment management, and interactive learning through features such as discussion forums, quizzes, and multimedia integration. It also offers tools for tracking student progress, grading, and providing feedback, ensuring a seamless communication channel between instructors and students. With robust analytics and reporting capabilities, our LMS helps universities monitor performance and optimize educational outcomes, fostering an engaging and effective learning environment.",
+      "Sistem Informasi Akademik (SIMAK) is an academic information system supporting course management, student records, and grade processing. It automates key administrative workflows and gives lecturers and staff centralized access to academic data. The application also includes discussion forums, quizzes, and multimedia integration for interactive learning.",
     tech: ["PHP", "CodeIgniter 3", "MySQL", "Linux Server"],
     github: "#",
     live: "#",
